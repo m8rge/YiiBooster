@@ -234,12 +234,6 @@ class TbExtendedGridView extends TbGridView
 	 */
 	public function renderKeys()
 	{
-		$data = $this->dataProvider->getData();
-		if (empty($data))
-		{
-			return false;
-		}
-
 		if(!$this->sortableRows || !$this->getAttribute($data[0], $this->sortableAttribute))
 		{
 			return parent::renderKeys();
