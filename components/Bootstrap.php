@@ -121,7 +121,8 @@ class Bootstrap extends CApplicationComponent
 	 */
 	public function registerCoreCss()
 	{
-		$this->registerAssetCss('bootstrap' . (!YII_DEBUG ? '.min' : '') . '.css');
+//		$this->registerAssetCss('bootstrap' . (!YII_DEBUG ? '.min' : '') . '.css');
+		$this->registerAssetCss('bootstrap.css');
 	}
 
 	/**
