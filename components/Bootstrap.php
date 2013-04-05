@@ -191,7 +191,7 @@ class Bootstrap extends CApplicationComponent
 		{
 			$cs->registerScriptFile($this->getAssetsUrl() . '/js/bootstrap.bootbox.min.js', $position);
 		}
-		$cs->registerScriptFile($this->getAssetsUrl() . '/js/bootstrap' . (!YII_DEBUG ? '.min' : '') . '.js', $position);
+		$cs->registerScriptFile($this->getAssetsUrl() . '/js/bootstrap.js', $position);
 	}
 
 	/**
