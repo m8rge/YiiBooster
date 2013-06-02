@@ -3906,7 +3906,7 @@ input[type="submit"].btn.btn-mini {
   text-shadow: 0 1px 0 #ffffff;
 }
 .navbar .nav .dropdown-toggle .caret {
-  margin-top: 8px;
+  margin-top: 6px;
 }
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
