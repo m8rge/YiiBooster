@@ -80,7 +80,7 @@ class TbDatePicker extends CInputWidget
 		foreach ($this->events as $event => $handler)
 			echo ".on('{$event}', " . CJavaScript::encode($handler) . ")";
 
-		Yii::app()->getClientScript()->registerScript(__CLASS__ . '#' . $this->getId(), ob_get_clean() . ';');
+		Yii::app()->getClientScript()->registerScript(__CLASS__ . '#' . $id, ob_get_clean() . ';');
 
 	}
 }
