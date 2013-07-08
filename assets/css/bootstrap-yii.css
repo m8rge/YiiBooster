@@ -86,7 +86,7 @@
     border-top:none;
 }
 .list-view-loading { background:url(../img/loading.gif) no-repeat; }
-.detail-view .null { color:#ffc0cb; }
+.detail-view .null { color:#999; }
 .detail-view th {
     text-align:right;
     width:160px;
